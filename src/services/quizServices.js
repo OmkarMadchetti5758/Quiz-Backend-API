@@ -47,7 +47,7 @@ function listQuizzesMetadata() {
     const data = JSON.parse(
       fs.readFileSync(path.join(QUIZ_DIR, file), "utf-8")
     );
-    return { id: data.id, title: data.title };
+    return { id: data.id, title: data.title }; //returning only id, title
   });
 
   return list;
