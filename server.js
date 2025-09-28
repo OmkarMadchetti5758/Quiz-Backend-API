@@ -1,6 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const quizRoutes = require("./routes/quiz.route");
+const quizRoutes = require("./src/routes/quiz.route");
 
 const app = express();
 app.use(bodyParser.json());
