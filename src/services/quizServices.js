@@ -24,6 +24,7 @@ function createQuiz(title) {
   return quiz;
 }
 
+
 function loadQuiz(quizId) {
   //extarct file path for quiz
   const fp = quizFilePath(quizId);
