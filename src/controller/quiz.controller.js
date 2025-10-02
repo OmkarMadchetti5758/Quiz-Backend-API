@@ -10,11 +10,11 @@ const createQuiz = (req, res) => {
       throw new ApiError(400, "Title is required");
     }
     const quiz = quizService.createQuiz(title);
-    return response(res, 201, "Quiz created quccessfully", quiz);
+    return response(res, 201, "Quiz created quccessfully", quiz.id);
   } catch (error) {
     console.error("Server error", error);
     return response(res, 500, "Server error");
-  }
+  } 
 };
 
 const addQuestion = (req, res) => {

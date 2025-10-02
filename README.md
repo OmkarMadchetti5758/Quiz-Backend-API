@@ -51,6 +51,12 @@ It is designed without using database for its simplicity, clean separation of co
     npm test
 ```
 
+## Running Test case with coverage
+
+```bash
+   npm run test:coverage
+```
+
 ### Test covers :
 
 1. Creating quiz
@@ -94,3 +100,7 @@ It is designed without using database for its simplicity, clean separation of co
 3. List of quizzes - http://localhost:3000/api/quizzes
 4. Get quiz questions without answers - http://localhost:3000/api/<quizId>/questions
 5. Submit answer and get score - http://localhost:3000/api/<quizId>/submit-answer
+
+```
+
+```
